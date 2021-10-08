@@ -3,12 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>in.hocg.rabbit</groupId>
-    <artifactId>rabbit-dependencies</artifactId>
+    <groupId>in.hocg</groupId>
+    <artifactId>boot-dependencies</artifactId>
     <version>1.0.1</version>
     <packaging>pom</packaging>
-    <name>Rabbit :: Dependencies</name>
-    <description>rabbit dependencies</description>
+    <name>Boot :: Dependencies</name>
+    <description>boot dependencies</description>
 
     <properties>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
@@ -42,6 +42,7 @@
         <okhttp.version>4.4.0</okhttp.version>
         <zxing.version>3.4.1</zxing.version>
         <!-- Maven plugins -->
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -418,7 +419,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>${maven-gpg-plugin.version}</version>
                 <executions>
                     <execution>
                         <phase>verify</phase>

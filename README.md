@@ -1,1 +1,1 @@
-# rabbit-dependencies
+# boot-dependencies
