@@ -8,7 +8,7 @@
     <version>1.0.1</version>
     <packaging>pom</packaging>
     <name>Boot :: Dependencies</name>
-    <description>boot dependencies</description>
+    <description>this is boot dependencies</description>
 
     <properties>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
@@ -409,9 +409,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:hocgin/spring-boot-starters-project.git</connection>
-        <developerConnection>scm:git:git@github.com:hocgin/spring-boot-starters-project.git</developerConnection>
-        <url>git@github.com:hocgin/spring-boot-starters-project.git</url>
+        <connection>scm:git:git@github.com:hocgin/boot-dependencies.git</connection>
+        <developerConnection>scm:git:git@github.com:hocgin/boot-dependencies.git</developerConnection>
+        <url>git@github.com:hocgin/boot-dependencies.git</url>
     </scm>
 
     <build>
