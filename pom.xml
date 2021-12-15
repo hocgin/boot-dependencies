@@ -11,7 +11,7 @@
 
     <groupId>in.hocg</groupId>
     <artifactId>boot-dependencies</artifactId>
-    <version>1.0.22</version>
+    <version>1.0.23</version>
     <packaging>pom</packaging>
     <name>Boot :: Dependencies</name>
     <description>this is boot dependencies</description>
@@ -161,11 +161,6 @@
             <dependency>
                 <groupId>in.hocg.boot</groupId>
                 <artifactId>logging-spring-boot-starter</artifactId>
-                <version>${boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>in.hocg.boot</groupId>
-                <artifactId>spring-boot-utils</artifactId>
                 <version>${boot.version}</version>
             </dependency>
             <dependency>
